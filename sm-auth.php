@@ -1,27 +1,24 @@
 <?php
 /**
- * The WordPress Plugin Boilerplate.
+ * SiteMinder Authentication a Wordpress plugin.
  *
- * A foundation off of which to build well-documented WordPress plugins that also follow
- * WordPress coding standards and PHP best practices.
+ * A wordpress plugin for login using SiteMinder credentials.
  *
  * @package   SM_Auth
  * @author    Kevin Attfield <k.attfield@gmail.com>
  * @license   GPL-2.0+
- * @link      http://example.com
- * @copyright 2013 Kevin Attfield or Company Name
+ * @link      https://github.com/TheWebShop/siteminder-authentication
+ * @copyright ♡ Copying is an act of love. Please copy.
  *
  * @wordpress-plugin
  * Plugin Name: SiteMinder Authentication
- * Plugin URI:  TODO
- * Description: TODO
+ * Plugin URI:  https://github.com/TheWebShop/siteminder-authentication
+ * Description: A wordpress plugin for login using SiteMinder credentials.
  * Version:     1.0.0
  * Author:      Kevin Attfield
- * Author URI:  TODO
- * Text Domain: sm-auth-locale
+ * Author URI:  https://github.com/Sinetheta
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * Domain Path: /lang
  */
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-sm-auth.php' );
