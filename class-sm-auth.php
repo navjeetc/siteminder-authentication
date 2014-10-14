@@ -15,8 +15,8 @@ class SM_Auth {
   private static $instance = null;
 
   private $plugin_screen_hook_suffix = null;
-  private $universalid = 'ROLARIU'; //fake it 'till we make it
-  //private $universalid = $_SERVER[HTTP_SM_UNIVERSALID];
+  // private $universalid = 'ROLARIU'; //fake it 'till we make it
+  private $universalid = '';
 
   /**
    * Return an instance of this class.
@@ -78,6 +78,7 @@ class SM_Auth {
   }
 
   private function __construct() {
+    $this->universalid = $_SERVER["HTTP_USER_ID"];
     // Add the options page and menu item.
     add_action( 'admin_menu', array( $this, 'add_plugin_admin_menu' ) );
 
