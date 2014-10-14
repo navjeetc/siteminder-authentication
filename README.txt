@@ -1,3 +1,6 @@
+Modified the original version to use HTTP_USER_ID coming from sitemider in 
+request header as the User ID.
+
 === Plugin Name ===
 Contributors: sinetheta
 Tags: siteminder, authentication, login
