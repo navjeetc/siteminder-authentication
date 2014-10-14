@@ -1,5 +1,5 @@
 Modified the original version to use HTTP_USER_ID coming from siteminder in 
-request header as the User ID.
+request header, as the User ID.
 
 === Plugin Name ===
 Contributors: sinetheta
